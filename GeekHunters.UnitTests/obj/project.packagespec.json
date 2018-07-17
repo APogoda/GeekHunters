@@ -1,0 +1,67 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\work\\interviews\\GeekHunters\\GeekHunters\\GeekHunters.UnitTests\\GeekHunters.UnitTests.csproj",
+    "projectName": "GeekHunters.UnitTests",
+    "projectPath": "D:\\work\\interviews\\GeekHunters\\GeekHunters\\GeekHunters.UnitTests\\GeekHunters.UnitTests.csproj",
+    "outputPath": "D:\\work\\interviews\\GeekHunters\\GeekHunters\\GeekHunters.UnitTests\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "D:\\work\\interviews\\GeekHunters\\GeekHunters\\GeekHunters\\GeekHunters.csproj": {
+            "projectPath": "D:\\work\\interviews\\GeekHunters\\GeekHunters\\GeekHunters\\GeekHunters.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.7.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.9.0, )"
+        },
+        "NUnit": {
+          "target": "Package",
+          "version": "[3.10.1, )"
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.10.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.3.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

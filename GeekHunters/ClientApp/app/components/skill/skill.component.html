@@ -1,0 +1,43 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Skills</li>
+            </ol>
+        </nav>
+        <div class="well">
+            <form (ngSubmit)="submit()">
+                <div class="form-group">
+                    <label for="name">Skill name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Skill name"
+                            [(ngModel)]="skill.name">
+                    <hr>
+                    <div class="btn-toolbar">
+                        <button type="submit" id="submit" class="btn btn-primary">Add skill</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <table class='table table-hover table-bordered table-striped' *ngIf="queryResult.skills">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let s of queryResult.skills">
+                <td>{{ s.id }}</td>
+                <td>{{ s.name }}</td>
+                <td>
+                    <div align="center" class="uk-button-group">
+                        <button class="btn btn-danger" type="reset" (click)="delete(s.id)">Delete</button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <pagination [total-items]="10" [page-size]=filter.pageSize (page-changed)="onPageChange($event)"></pagination>
+    </div>
+</div>

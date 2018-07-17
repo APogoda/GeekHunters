@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekHunters", "GeekHunters\GeekHunters.csproj", "{FE37F5C0-2A40-4223-A71C-0A8146230AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekHunters.UnitTests", "GeekHunters.UnitTests\GeekHunters.UnitTests.csproj", "{D55B9576-BAE3-4DAF-A12D-4694F955AF1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE37F5C0-2A40-4223-A71C-0A8146230AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE37F5C0-2A40-4223-A71C-0A8146230AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE37F5C0-2A40-4223-A71C-0A8146230AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE37F5C0-2A40-4223-A71C-0A8146230AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55B9576-BAE3-4DAF-A12D-4694F955AF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55B9576-BAE3-4DAF-A12D-4694F955AF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55B9576-BAE3-4DAF-A12D-4694F955AF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55B9576-BAE3-4DAF-A12D-4694F955AF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

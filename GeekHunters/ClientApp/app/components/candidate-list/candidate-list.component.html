@@ -1,0 +1,46 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Candidates</li>
+            </ol>
+        </nav>
+        <a [routerLink]="['/candidates/new']" class="btn btn-primary">New Candidate</a>
+        <div class="well">
+            <div class="form-group">
+                <label for="skill">Skill</label>
+                <select id="skill" class="form-control" [(ngModel)]="filter.skillId" (change)="onFilterChange()">
+                    <option value=""></option>
+                    <option *ngFor="let s of skills" value="{{ s.id }}">{{ s.name }}</option>
+                </select>
+            </div>
+            <button class="btn btn-default" (click)="resetFilter()">Reset</button>
+        </div>
+        <table class='table table-hover table-bordered table-striped' *ngIf="queryResult.candidates">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Skills</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let c of queryResult.candidates">
+                <td>{{ c.id }}</td>
+                <td>{{ c.firstName }}</td>
+                <td>{{ c.lastName }}</td>
+                <td>{{ c.skillsString }}</td>
+                <td>
+                    <div align="center" class="uk-button-group">
+                        <a [routerLink]="['/candidates/',c.id]" class="btn btn-primary">Update</a>
+                        <button class="btn btn-danger" type="reset" (click)="delete(c.id)">Delete</button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <pagination [total-items]="queryResult.totalItems" [page-size]=filter.pageSize (page-changed)="onPageChange($event)"></pagination>
+    </div>
+</div>
