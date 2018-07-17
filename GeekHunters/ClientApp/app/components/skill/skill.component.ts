@@ -74,4 +74,9 @@ export class SkillComponent implements OnInit {
         });
     }
 
+    onPageChange(page){
+        this.filter.page=page;
+        this.populateSkillList();
+    }
+
 }
