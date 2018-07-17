@@ -22,6 +22,6 @@ after_success:
 
   # CONFIG SERVICE
   - export CONFIG=apogoda/geekhunters
-  - docker build -t $CONFIG:$COMMIT .
+  - docker build -t $CONFIG:$COMMIT ./GeekHunters/
   - docker tag $CONFIG:$COMMIT $CONFIG:$TAG
   - docker push $CONFIG

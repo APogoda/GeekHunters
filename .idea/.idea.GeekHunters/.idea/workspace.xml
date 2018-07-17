@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="8498ac52-8592-40d5-a3f7-e395638d6d26" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GeekHunters/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GeekHunters/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GeekHunters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GeekHunters/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="cbee60dc-3823-43dc-a3f0-2ebc30ed12d9" name="FrontEnd done" comment="" />
-    <list default="true" id="8498ac52-8592-40d5-a3f7-e395638d6d26" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +136,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D20CBD02-26E7-415E-B1A4-987B8F9C343D/0a/402b6f24/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -386,12 +389,12 @@
       <workItem from="1531723676521" duration="34806000" />
       <workItem from="1531775114742" duration="10549000" />
       <workItem from="1531796264992" duration="17676000" />
-      <workItem from="1531820363915" duration="7487000" />
+      <workItem from="1531820363915" duration="8253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183786000" />
+    <option name="totallyTimeSpent" value="184552000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,6 +407,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.3296" />
@@ -469,6 +473,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
