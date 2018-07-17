@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list id="cbee60dc-3823-43dc-a3f0-2ebc30ed12d9" name="FrontEnd done" comment="" />
     <list default="true" id="8498ac52-8592-40d5-a3f7-e395638d6d26" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeekHunters/ClientApp/dist/main-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/GeekHunters/ClientApp/dist/main-server.js" afterDir="false" />
     </list>
-    <list id="cbee60dc-3823-43dc-a3f0-2ebc30ed12d9" name="FrontEnd done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +40,8 @@
       <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+            <state relative-caret-position="15">
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -424,12 +423,12 @@
       <workItem from="1531723676521" duration="34806000" />
       <workItem from="1531775114742" duration="10549000" />
       <workItem from="1531796264992" duration="17676000" />
-      <workItem from="1531820363915" duration="12816000" />
+      <workItem from="1531820363915" duration="13403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189115000" />
+    <option name="totallyTimeSpent" value="189702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1038,8 +1037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+        <state relative-caret-position="15">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
         </state>
       </provider>
     </entry>
