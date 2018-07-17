@@ -3,7 +3,6 @@ mono: none
 dotnet: 2.0.0
 script:
   - dotnet restore
-  - npm --prefix ./GeekHunters/ run build
-  - npm install
+  - npm --prefix ./GeekHunters/ install
   - dotnet build ./GeekHunters/
   - dotnet test ./GeekHunters.UnitTests/

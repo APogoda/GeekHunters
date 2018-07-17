@@ -11,7 +11,6 @@ import { CandidateComponent } from './components/candidate/candidate.component';
 import {CandidateService} from "./services/candidate.service";
 import {SkillService} from "./services/skill.service";
 import {ToastyModule, ToastyService} from "ng2-toasty";
-import {AlertModule} from "ngx-bootstrap";
 import { CandidateListComponent } from './components/candidate-list/candidate-list.component';
 import {PaginationComponent} from "./components/shared/pagination.component";
 import { SkillComponent } from './components/skill/skill.component';
