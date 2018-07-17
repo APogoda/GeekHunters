@@ -1,7 +1,7 @@
 Geek Hunters!
 =============
 
-Welcome to the GRS application (ASP NET CORE + Angular)
+Welcome to the GRS application (ASP NET CORE 2.0 + Angular)
 
 **GRS system functional requirements:**
 
