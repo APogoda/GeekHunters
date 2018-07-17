@@ -108,6 +108,11 @@
             <e p="20180715010429_ManyToMany.Designer.cs" t="Include" />
             <e p="GeekHuntersSqlLiteDbContexModelSnapshot.cs" t="Include" />
           </e>
+          <e p="SqlServerMigrations" t="Include">
+            <e p="20180717102637_Init.cs" t="Include" />
+            <e p="20180717102637_Init.Designer.cs" t="Include" />
+            <e p="GeekHuntersDbContextModelSnapshot.cs" t="Include" />
+          </e>
         </e>
         <e p="Models" t="Include">
           <e p="Candidate.cs" t="Include" />

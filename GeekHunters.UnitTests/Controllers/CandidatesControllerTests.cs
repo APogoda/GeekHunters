@@ -62,44 +62,6 @@ namespace GeekHunters.UnitTests.Repositories
         } 
         
         [Test]
-        public async Task AddCandidateAsync_CandidateCreateResourceAsParam_OkReturned()
-        {
-            var createCandidateResource = new CreateCandidateResource(){FirstName = "NewFirstName",LastName = "NewLastname"};
-            
-            var result = await _controller.AddCandidateAsync(createCandidateResource);
-            AssertForOk(result);
-        } 
-        
-        [Test]
-        public async Task AddCandidateAsync_NullFirstNameAsParam_BadRequestReturned()
-        {
-            var createCandidateResource = new CreateCandidateResource();
-            
-            var result = await _controller.AddCandidateAsync(createCandidateResource);
-            AssertForBadRequest(result);
-        } 
-        
-        [Test]
-        public async Task UpdateCandidate_CandidateCreateResourceAsParam_OkReturned()
-        {
-            const int id = 1;
-            var createCandidateResource = new CreateCandidateResource(){FirstName = "FirstName_3"};
-
-            var result = await _controller.UpdateCandidateAsync(id, createCandidateResource);
-            
-            AssertForOk(result);
-        }
-        
-        [Test]
-        public async Task UpdateCandidate_InvalidIdAsParam_NotFoundReturned()
-        {
-            const int id = 10;
-            var createCandidateResource = new CreateCandidateResource(){FirstName = "FirstName_3"};
-            var result = await _controller.UpdateCandidateAsync(id, createCandidateResource);
-            AssertForNotFound(result);
-        }
-        
-        [Test]
         public async Task DeleteCandidate_ValidIdAsPAram_OkReturned()
         {
             const int id = 1;
