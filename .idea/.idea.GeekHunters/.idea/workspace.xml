@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8498ac52-8592-40d5-a3f7-e395638d6d26" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GeekHunters/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GeekHunters/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GeekHunters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GeekHunters/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeekHunters/ClientApp/dist/main-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/GeekHunters/ClientApp/dist/main-server.js" afterDir="false" />
     </list>
     <list id="cbee60dc-3823-43dc-a3f0-2ebc30ed12d9" name="FrontEnd done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeekHunters/appsettings.json">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="433">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -54,11 +54,6 @@
       </file>
       <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeekHunters/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="angular.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeekHunters/angular.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -89,8 +84,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeekHunters/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeekHunters/ClientApp/app/components/app/app.component.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeekHunters/ClientApp/app/components/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -236,7 +241,6 @@
         <option value="$PROJECT_DIR$/GeekHunters/ClientApp/app/components/skill/skill.component.html" />
         <option value="$PROJECT_DIR$/GeekHunters/ClientApp/app/components/navmenu/navmenu.component.html" />
         <option value="$PROJECT_DIR$/GeekHunters.UnitTests/Services/CandidateServiceTests.cs" />
-        <option value="$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html" />
         <option value="$PROJECT_DIR$/GeekHunters/Migrations/20180717100747_SqlServerMigrations.cs" />
         <option value="$PROJECT_DIR$/GeekHunters/appsettings.json" />
         <option value="$PROJECT_DIR$/GeekHunters/Migrations/SqlServerMigrations/20180717102637_Init.cs" />
@@ -248,6 +252,7 @@
         <option value="$PROJECT_DIR$/GeekHunters/script.sql" />
         <option value="$PROJECT_DIR$/GeekHunters/.dockerignore" />
         <option value="$PROJECT_DIR$/GeekHunters/Dockerfile" />
+        <option value="$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -292,6 +297,36 @@
               <item name="GeekHunters (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="GeekHunters" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GeekHunters (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GeekHunters" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GeekHunters (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GeekHunters" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="app" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GeekHunters (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GeekHunters" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="app" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="components" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GeekHunters (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GeekHunters" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="app" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="components" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="home" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -329,7 +364,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GeekHunters" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <envs>
-        <env name="ASPNETCORE_ENVIRONMENT" value="Production" />
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
         <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
       </envs>
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -389,12 +424,12 @@
       <workItem from="1531723676521" duration="34806000" />
       <workItem from="1531775114742" duration="10549000" />
       <workItem from="1531796264992" duration="17676000" />
-      <workItem from="1531820363915" duration="8253000" />
+      <workItem from="1531820363915" duration="9550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184552000" />
+    <option name="totallyTimeSpent" value="185849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,9 +450,9 @@
       <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="7" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973333" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49973333" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49973333" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4992" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992" weight="0.32897604" />
       <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.49973333" weight="0.41394335" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32897604" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.22346666" />
@@ -584,20 +619,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GeekHunters/Mapping/MappingProfile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeekHunters/Repositories/ICandidateRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeekHunters/Models/QueryResult.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -805,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeekHunters/Migrations/20180717100133_SqlServerMigrations.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-774" />
@@ -1015,6 +1029,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GeekHunters/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeekHunters/ClientApp/app/components/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeekHunters/ClientApp/app/components/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeekHunters/ClientApp/app/components/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
